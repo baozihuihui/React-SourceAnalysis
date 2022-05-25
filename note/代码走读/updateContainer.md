@@ -9,7 +9,7 @@
 
 - element ------------ 需要渲染的 ReactElemtn
 - container ------------ HtmlElement
-- parentComponent ------------ 父结点(SSR 专用 )
+- parentComponent ------------ 父结点(SSR 专用)
 - callBack ------------ 回调函数
 
 **内容：**
