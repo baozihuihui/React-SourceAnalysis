@@ -1,4 +1,5 @@
 # render 阶段
+#### 本地文件位置(react-dom-development.js)
 
 - 开始于`performSyncWorkOnRoot`或`performConcurrentWorkOnRoot`方法的调用。这取决于本次更新是同步更新还是异步更新。
 - 从 `rootFiber` 节点 ,深度优先遍历整棵树。并针对 mount、update 两种状态执行不同的逻辑。
